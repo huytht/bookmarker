@@ -1,3 +1,5 @@
+# Database:
+config/schema/app.sql
 # CakePHP Bookmarker Sample Application
 
 This is a sample application that is the result of following
