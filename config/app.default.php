@@ -49,7 +49,7 @@ return [
         'jsBaseUrl' => 'js/',
         'paths' => [
             'plugins' => [ROOT . DS . 'plugins' . DS],
-            'templates' => [APP . 'Template' . DS],
+            'templates' => [APP . 'View' . DS],
             'locales' => [APP . 'Locale' . DS],
         ],
     ],
