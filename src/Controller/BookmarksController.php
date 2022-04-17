@@ -54,7 +54,7 @@ class BookmarksController extends AppController
         $bookmark = $this->Bookmarks->newEntity();
         if ($this->request->is('post')) {
             $data = $this->request->getData();
-
+            echo("Testing");
             $tzdate = new FrozenTime($data['tzdate'], 'Asia/Ho_Chi_Minh');
 
             $data = array_merge($data, [
